@@ -11,7 +11,7 @@ Then, copy the the public part of the generated keypair to clipboard:
 
     $ cd ~
     $ cd .ssh
-    $ cat id_rsa.pub
+    $ cat id_rsa.pub   # .pub is for public; the 'id_rsa' file is the private part of the keypair!
     (long string of data shown)
 
 Copy the string of data. Login to GitHub/GitLab and look for SSH keys under your account settings.
